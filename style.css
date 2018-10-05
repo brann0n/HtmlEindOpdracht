@@ -24,9 +24,9 @@ body{
 	width: 900px;
 	margin: 20px auto;
 	background-color: #545454;
-	height: 500px;
+	height: 600px;
 	padding: 5px;
-	box-shadow: 0px 15px 15px 11px #6067f399;	
+	box-shadow: 0px 15px 5px 11px #6067f399;	
 	color: #fdfdfd;
 	border-radius: 5px;
 }
@@ -36,24 +36,33 @@ body{
 }
 .PhoneSection{
 	width: 850px;
+	padding-top: 30px;
 }
 
 .PhoneCard{
 	width: 150px;
-	padding: 5px;
+	padding: 10px;
+	margin: 5px;
+	border: solid 1px #fdfdfd;
+	border-radius: 5px;
+	float:left;
+}
+.Footer{
+	background-color:#fdfdfd;
+	position:fixed;
+	bottom:0;
 }
 
+.featureList{
+	padding-left:20px;
+}
 #C1{
 	text-align:justify;
-	width: 400px;
-	float: left;
-	margin:auto;
-	padding-right: 10px;
+	width: 500px;	
+	padding-top: 10px;
 }
 #C2{
 	text-align:justify;
-	width: 400px;
-	float: left;
-	margin:auto;
-	padding-left: 10px;
+	width: 500px;	
+	padding-top: 10px;
 }
