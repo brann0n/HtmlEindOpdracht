@@ -48,6 +48,20 @@ body{
 	border-radius: 5px;
 	float:left;
 }
+
+.PhoneCard:hover{
+	width: 190px;
+	height: 290px;
+	padding: 10px;
+	margin: 3px;
+	border: 3px solid #fdfdfd;
+}
+
+.urlCorrector{
+	text-decoration:none;
+	color: inherit;
+}
+
 .Footer{
 	background-color:#fdfdfd;
 	position:fixed;
