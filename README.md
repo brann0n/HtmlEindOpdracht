@@ -12,15 +12,17 @@ Download de zip file en open de index.html
 
 ## Authors
 
-* **Michiel Arnoldus** - *Initial work*
+* **Michiel Arnoldus** - *Initial work* - [MichielArnoldus](https://github.com/MichielArnoldus)
 
-* **Robbert Remie** - *Initial work*
+* **Robbert Remie** - *Initial work* - [RRemie](https://github.com/RRemie)
 
-* **Thijs Janse** - *Initial work*
+* **Thijs Janse** - *Initial work* - [BroederTitus](https://github.com/BroederTitus)
 
-* **Nick ten Caat** - *Initial work*
+* **Nick ten Caat** - *Initial work* - [NicktenCaat](https://github.com/NicktenCaat)
 
-* **Simon Gharnagharyan** - *Initial work*
+* **Simon Gharnagharyan** - *Initial work* - [Gharyan](https://github.com/Gharyan)
+
+* **Arjan Heijnen** - *Initial work* - [ArjanHeijnen](https://github.com/ArjanHeijnen)
 
 * **Brandon Abbenhuis** - *Initial work* - [brann0n](https://github.com/brann0n)
 
