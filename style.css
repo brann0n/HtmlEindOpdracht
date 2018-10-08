@@ -19,7 +19,41 @@ body{
 	padding: 5px;
 	color: #fdfdfd;
 }
+.NavMenu{
+	list-style:none;
+	float:left;
+	margin-left: 30px;
+	margin:20px;
+}
+.NavMenu > li{
+	float:left;
+	margin-right: 10px;
+}
+/*For children of children of Navmenu and li*/
+.NavMenu > li > a{
+	text-decoration:none;
+	color:inherit;
+}
 
+.NavMenu > li > ul{
+	list-style: none;
+	color:inherit;
+}
+.NavMenu > li > ul > li {
+	height: 30px;
+	width: 150px;
+}
+.NavMenu > li > ul > li > a{
+	text-decoration:none;
+	color:inherit;
+}
+.menuDropDown{
+	width:160px;
+}
+.menuDropDown > li{
+	float:left;
+	
+}
 .MainContent{
 	width: 900px;
 	margin: 20px auto 50px  auto;
@@ -80,4 +114,8 @@ body{
 	text-align:justify;
 	width: 500px;	
 	padding-top: 10px;
+}
+#hTitle{
+	float: left;
+	padding: 5px;
 }
