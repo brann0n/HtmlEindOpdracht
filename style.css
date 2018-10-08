@@ -116,3 +116,25 @@ body{
 	float: left;
 	padding: 5px;
 }
+/* Robbert css */
+
+.robbertPhoneImage {
+	float:right; 
+	margin-top: 80px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 350px;
+	height: 263px;
+	border: 4px solid black;
+	
+}
+
+.robbertText {
+	float: left;
+	width: 450px;
+	height: 500px;
+	margin: 5px;
+	background-color: red;
+}
+
+
