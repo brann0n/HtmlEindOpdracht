@@ -33,19 +33,23 @@ body{
 	text-decoration:none;
 	color:inherit;
 }
-.menuDropDown{
-	list-style: none;
+#greybutton{
 	background-color:#545454;
 	padding: 5px;
-	width: 150px;
+}
+.menuDropDown{
+	list-style: none;
+	background-color:#fdfdfd;
+	color: #545454;	
+	width: 170px;
 	position: absolute;
-	border: 1px solid white;
 }
 .menuDropDownElement{
 	display:none;	
 	height: 30px;
 	width: 150px;
-	margin-top: 20px;
+	margin: 10px;
+	text-decoration: none;	
 }
 .dropDownButton:hover .menuDropDownElement {
 	display:block;
