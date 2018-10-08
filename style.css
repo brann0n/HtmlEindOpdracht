@@ -29,31 +29,28 @@ body{
 	float:left;
 	margin-right: 10px;
 }
-/*For children of children of Navmenu and li*/
 .NavMenu > li > a{
 	text-decoration:none;
 	color:inherit;
 }
-
-.NavMenu > li > ul{
+.menuDropDown{
 	list-style: none;
-	color:inherit;
+	background-color:#545454;
+	padding: 5px;
+	width: 150px;
+	position: absolute;
+	border: 1px solid white;
 }
-.NavMenu > li > ul > li {
+.menuDropDownElement{
+	display:none;	
 	height: 30px;
 	width: 150px;
+	margin-top: 20px;
 }
-.NavMenu > li > ul > li > a{
-	text-decoration:none;
-	color:inherit;
+.dropDownButton:hover .menuDropDownElement {
+	display:block;
 }
-.menuDropDown{
-	width:160px;
-}
-.menuDropDown > li{
-	float:left;
-	
-}
+
 .MainContent{
 	width: 900px;
 	margin: 20px auto 50px  auto;
