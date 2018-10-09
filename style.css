@@ -35,8 +35,15 @@ body{
 }
 #greybutton{
 	background-color:#545454;
-	padding: 5px;
+	padding: 0 5px;
+	text-decoration: none;
+	color: inherit;
 }
+#greybutton > a{
+	text-decoration: none;
+	color: #fdfdfd;
+}
+
 .menuDropDown{
 	list-style: none;
 	background-color:#fdfdfd;
@@ -51,6 +58,12 @@ body{
 	margin: 10px;
 	text-decoration: none;	
 }
+
+.menuDropDownElement > a{
+	text-decoration: none;	
+	color: #545454;
+}
+
 .dropDownButton:hover .menuDropDownElement {
 	display:block;
 }
