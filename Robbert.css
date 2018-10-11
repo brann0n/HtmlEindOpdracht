@@ -1,3 +1,4 @@
+/* Main */
 *{
 	margin:0;
 	padding:0;
@@ -86,80 +87,93 @@ body{
 	border-radius: 5px;
 }
 
-.WelcomeSection{
-	width: 900px;
-	padding: 5px;
-}
-
-.PhoneSection{
-	width: 900px;
-	padding-top: 30px;
-}
-
-.PhoneCard{
-	width: 190px;
-	height: 290px;
-	padding: 10px;
-	margin: 5px;
-	border: solid 1px #fdfdfd;
-	border-radius: 5px;
-	float:left;
-}
-
-.PhoneCard:hover{
-	width: 190px;
-	height: 290px;
-	padding: 10px;
-	margin: 3px;
-	border: 3px solid #fdfdfd;
-}
-
-.urlCorrector{
-	text-decoration:none;
-	color: inherit;
-}
-
 .Footer{
 	background-color:#fdfdfd;
 	position:fixed;
 	bottom:0;
 }
 
-.featureList{
-	padding-left:20px;
-}
-#C1{
-	text-align:justify;
-	width: 500px;	
-	padding-top: 10px;
-}
-#C2{
-	text-align:justify;
-	width: 500px;	
-	padding-top: 10px;
-}
+
+
 #hTitle{
 	float: left;
 	padding: 5px;
 }
 
-
-.arjanPhoneImage {
+/*Review Robbert*/
+.robbertPhoneImage {
 	float:right; 
-	margin-top: 80px;
+	margin-top: 50px;
 	margin-left: 20px;
 	margin-right: 20px;
+	margin-bottom: 20px;
 	width: 350px;
-	height: 350px;
-	border: 3px solid black;
+	height: 263px;
+	border: 4px solid black;
+	border-radius:5px;
+	box-shadow: 0px 5px 5px 10px #33312d;
 	
 }
 
-.arjanText {
+.robbertText {
 	float: left;
 	width: 450px;
-	height: 500px;
+	height: 350px;
 	margin: 5px;
-	background-color: dimgray;
+	text-align: justify;
+
+
+}
+#pRobbertText {
+	padding-top: 10px;
+	float: left;
+}
+.rightBlok {
+	float: right;
+	width: 350px;
+	height: 300px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	padding: 5px;
+	text-align: left;
+	background-color: #4f4354;
+	border-radius: 5px;
+	box-shadow: 0px 5px 5px 10px #33312d;
+}
+.robbertUlList {
+	list-style: none;
+	
+	
 }
 
+#form {
+	float: left;
+	background-color:#4f4354;
+	width: 880px;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px 5px #33312d;
+}
+#robbertSlot {
+	float: left;
+	width: 890px;
+	height: 150px;
+	margin: 5px;
+	text-align: justify;
+}
+textarea {
+	width: 800px;
+	height: 100px;
+	margin-top: 5px;
+	margin-left: 43px;
+	resize: none;
+	color: black;
+	overflow: auto;
+}
+input[type=submit] {
+	margin-top: 10px;
+	margin-left: 40px;
+}
