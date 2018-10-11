@@ -12,19 +12,19 @@ Download de zip file en open de index.html
 
 ## Authors
 
-* **Michiel Arnoldus** - *Initial work* - [MichielArnoldus](https://github.com/MichielArnoldus)
+* **Michiel Arnoldus** - *Index.html & Michiel.html* - [MichielArnoldus](https://github.com/MichielArnoldus)
 
-* **Robbert Remie** - *Initial work* - [RRemie](https://github.com/RRemie)
+* **Robbert Remie** - *Index.html & Robbert.html* - [RRemie](https://github.com/RRemie)
 
-* **Thijs Janse** - *Initial work* - [BroederTitus](https://github.com/BroederTitus)
+* **Thijs Janse** - *Index.html & Thijs.html* - [BroederTitus](https://github.com/BroederTitus)
 
-* **Nick ten Caat** - *Initial work* - [NicktenCaat](https://github.com/NicktenCaat)
+* **Nick ten Caat** - *Index.html & Nick.html* - [NicktenCaat](https://github.com/NicktenCaat)
 
-* **Simon Gharnagharyan** - *Initial work* - [Gharyan](https://github.com/Gharyan)
+* **Simon Gharnagharyan** - *Index.html & Simon.html* - [Gharyan](https://github.com/Gharyan)
 
-* **Arjan Heijnen** - *Initial work* - [ArjanHeijnen](https://github.com/ArjanHeijnen)
+* **Arjan Heijnen** - *Index.html & Arjan.html* - [ArjanHeijnen](https://github.com/ArjanHeijnen)
 
-* **Brandon Abbenhuis** - *Initial work* - [brann0n](https://github.com/brann0n)
+* **Brandon Abbenhuis** - *Index.html & Brandon.html* - [brann0n](https://github.com/brann0n)
 
 See also the list of [contributors](https://github.com/brann0n/HtmlEindOpdracht/contributors) who participated in this project.
 
