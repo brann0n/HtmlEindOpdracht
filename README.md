@@ -5,6 +5,8 @@ Deze opdracht hebben we gemaakt voor de eindopdracht van (x)html en css, het doe
 
 Download de zip file en open de index.html
 
+Of bekijk de website in Github Pages: [HtmlEindOpdracht](https://brann0n.github.io/HtmlEindOpdracht/)
+
 ## Built With
 
 * [HTML](https://nl.wikipedia.org/wiki/HyperText_Markup_Language) - Bescrijving van de programmeer taal.
