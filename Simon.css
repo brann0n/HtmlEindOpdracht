@@ -1,0 +1,95 @@
+*	{
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	background-image: url("images/simpletechnology.png");
+}
+
+.main {
+	margin: 0 auto;
+}
+
+.header {
+	height: 65px;
+	padding-top: 20px;
+	background-color: #545454;
+	color: white;
+}
+
+.link { 
+	color: white;
+	text-decoration: none;
+}
+
+#headertext1 {
+	float: left;
+	padding-left: 400px;
+}
+
+#headertext2 {
+	float: left;
+	padding-left: 75px;
+	padding-top: 10px;
+
+}
+
+#headertext3 {
+	float: left;
+	padding-left: 50px;
+	padding-top: 10px;
+}
+
+.NavMenu{
+	list-style:none;
+	float:left;
+	margin-left: 30px;
+	margin:20px;
+}
+
+.NavMenu > li{
+	float:left;
+	margin-right: 10px;
+}
+
+.NavMenu > li > a{
+	text-decoration:none;
+	color:inherit;
+}
+
+#greybutton{
+	background-color:#545454;
+	padding: 0 5px;
+	text-decoration: none;
+	color: inherit;
+}
+
+#greybutton > a{
+	text-decoration: none;
+	color: #fdfdfd;
+}
+
+.menuDropDown{
+	list-style: none;
+	background-color:#fdfdfd;
+	color: #545454;	
+	width: 170px;
+	position: absolute;
+}
+.menuDropDownElement{
+	display:none;	
+	height: 30px;
+	width: 150px;
+	margin: 10px;
+	text-decoration: none;	
+}
+
+.menuDropDownElement > a{
+	text-decoration: none;	
+	color: #545454;
+}
+
+.dropDownButton:hover .menuDropDownElement {
+	display:block;
+}

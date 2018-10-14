@@ -22,6 +22,10 @@ body{
 	color: #fdfdfd;
 }
 
+#imageSimon {
+	padding-top: 10px;
+}
+
 .NavMenu{
 	list-style:none;
 	float:left;
