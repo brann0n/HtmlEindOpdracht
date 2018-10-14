@@ -89,34 +89,6 @@ body{
 	border-radius: 5px;
 }
 
-.WelcomeSection{
-	width: 900px;
-	padding: 5px;
-}
-
-.PhoneSection{
-	width: 900px;
-	padding-top: 30px;
-}
-
-.PhoneCard{
-	width: 190px;
-	height: 290px;
-	padding: 10px;
-	margin: 5px;
-	border: solid 1px #fdfdfd;
-	border-radius: 5px;
-	float:left;
-}
-
-.PhoneCard:hover{
-	width: 190px;
-	height: 290px;
-	padding: 10px;
-	margin: 3px;
-	border: 3px solid #fdfdfd;
-}
-
 .urlCorrector{
 	text-decoration:none;
 	color: inherit;
@@ -128,15 +100,13 @@ body{
 	bottom:0;
 }
 
-.featureList{
-	padding-left:20px;
 }
-#C1{
+#Nicktext{
 	text-align:justify;
 	width: 500px;	
 	padding-top: 10px;
 }
-#C2{
+#Nicktext{
 	text-align:justify;
 	width: 500px;	
 	padding-top: 10px;
