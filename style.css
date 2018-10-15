@@ -150,7 +150,13 @@ body{
 	float: left;
 	padding: 5px;
 }
-
+#LogoImage{
+	margin: 5px;
+	padding: 0;
+	height: 60px;
+	float: left;
+	margin-left: 260px;
+}
 
 .arjanPhoneImage {
 	float:right; 
