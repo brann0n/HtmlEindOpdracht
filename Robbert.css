@@ -185,14 +185,9 @@ input[type=text] {
 }
 input[type=radio] {
 	margin-top: 5px;
+
 }
-.man {
-		margin-left: 10px;
-}
-.vrouw {
-		margin-left: 73px;
-	
-}
+
 
 input[type=submit] {
 	margin-top: 10px;
