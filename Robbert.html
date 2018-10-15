@@ -136,11 +136,16 @@
 				<div id="form">
 					<h2>Reacties</h2>
 					<form action="robbert.html" method="POST">
-						Naam:<input type="text" name="naam">
+						Naam:<input type="text" name="naam" class="naam"><br>					
+						Mail:<input type="text" name="mail" class="mail"><br>
+						Geslacht: <input type="radio" name="geslacht"  value="man" class="man">M<br>
+						<input type="radio" name="geslacht" value="vrouw" class="vrouw">V<br>
 						<br>
 						<textarea placeholder="Uw reactie...">
 						</textarea>
 						<br>
+						<input type="checkbox" name="account" checked="checked">Account aanmaken?<br>
+						<input type="checkbox" name="nieuwsbrief" checked="checked">Nieuwsbrief ontvangen?<br>
 						<input type="submit" name="verzend" value="verstuur">
 					</form>
 				</div>
