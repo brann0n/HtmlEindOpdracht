@@ -26,7 +26,7 @@
 	float: left;
 }
 .rightBlok {
-	float: right;
+	float: left;
 	width: 350px;
 	height: 300px;
 	margin-top: 10px;
@@ -35,7 +35,47 @@
 	margin-bottom: 40px;
 	padding: 5px;
 	text-align: left;
-	background-color: #4f4354;
+	background-image: url("images/simpletechnology.png");
 	border-radius: 5px;
 	box-shadow: 0px 5px 5px 10px #33312d;
+	color: black;
+}
+#MText {
+	padding-top: 10px;
+	float: left;
+}
+
+.MUlList {
+	list-style: none;
+	
+	
+}
+#form {
+	float: left;
+	background-color:#4f4354;
+	width: 880px;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px 5px #33312d;
+}
+#MSlot {
+	float: left;
+	width: 890px;
+	height: 150px;
+	margin: 5px;
+	text-align: justify;
+}
+textarea {
+	width: 800px;
+	height: 100px;
+	margin-top: 5px;
+	margin-left: 43px;
+	resize: none;
+	color: black;
+	overflow: auto;
+}
+input[type=submit] {
+	margin-top: 10px;
+	margin-left: 40px;
 }

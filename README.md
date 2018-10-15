@@ -18,7 +18,7 @@ Of bekijk de website in Github Pages: [HtmlEindOpdracht](https://brann0n.github.
 
 * **Robbert Remie** - *Index.html & Robbert.html* - [RRemie](https://github.com/RRemie)
 
-* **Thijs Janse** - *Index.html & Thijs.html* - [BroederTitus](https://github.com/BroederTitus)
+* **Thijs Janse** - *Index.html & Thijs.html* - [BroederTitus](https://github.com/BroederTitus) of [ThijsJanse](https://github.com/ThijsJanse)
 
 * **Nick ten Caat** - *Index.html & Nick.html* - [NicktenCaat](https://github.com/NicktenCaat)
 
