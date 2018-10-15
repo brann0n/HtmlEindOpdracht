@@ -1,5 +1,11 @@
 .reviewSections{
 	text-align:justify;
 	float: left;
-	
+	width: 500px;
+}
+
+#NokiaImage{
+	float:right;
+	width: 300px;
+	padding: 5px;
 }
