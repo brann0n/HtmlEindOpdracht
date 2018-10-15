@@ -1,44 +1,31 @@
-*	{
-	margin: 0;
-	padding: 0;
+*{
+	margin:0;
+	padding:0;
+	font-family: "Calibri";
 }
 
-body { 
+body{
 	background-image: url("images/simpletechnology.png");
+	background-position: cover;
 }
 
-.main {
-	margin: 0 auto;
-}
-
-.header {
-	height: 65px;
-	padding-top: 20px;
+.HeaderContent{
+	width: auto 0;
+	height: 70px;
 	background-color: #545454;
-	color: white;
 }
 
-.link { 
-	color: white;
-	text-decoration: none;
-}
-
-#headertext1 {
+#hTitle{
 	float: left;
-	padding-left: 400px;
+	padding-top: 5px;
+	padding-left: 100px;
 }
 
-#headertext2 {
-	float: left;
-	padding-left: 75px;
-	padding-top: 10px;
-
-}
-
-#headertext3 {
-	float: left;
-	padding-left: 50px;
-	padding-top: 10px;
+.MainHeaderContent{
+	width: 900px;
+	margin: auto;
+	padding: 5px;
+	color: #fdfdfd;
 }
 
 .NavMenu{
@@ -76,7 +63,10 @@ body {
 	color: #545454;	
 	width: 170px;
 	position: absolute;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
+
 .menuDropDownElement{
 	display:none;	
 	height: 30px;
@@ -93,3 +83,10 @@ body {
 .dropDownButton:hover .menuDropDownElement {
 	display:block;
 }
+
+.Footer{
+	background-color:#fdfdfd;
+	position:fixed;
+	bottom:0;
+}
+
