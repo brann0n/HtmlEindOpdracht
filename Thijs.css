@@ -1,0 +1,55 @@
+#omschrijvingBox{
+	width: 65%;
+	float: left;
+	padding-left: 20px;
+}
+
+#imageBox{
+	width: 35%
+	float: left;
+}
+
+#imageStyling{
+	float: right;
+}
+
+#gevolgenBox{
+	width: 65%;
+	float: left;
+	padding-top: 17px;
+	padding-left: 20px;
+}
+
+#specificatieBox{
+	width: 35%;
+	float: left;
+}
+
+#tableStyling{
+	float: right;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+
+#gevolgenStyling{
+	padding-left: 17px;
+}
+
+table, th, td{
+	border: 1px solid white;
+	padding: 10px;
+}
+
+#pollBox{
+	width: 65%;
+	float: left;
+	padding-top: 17px;
+	padding-left: 20px;
+}
+
+#guessBox{
+	width: 65%;
+	float: left;
+	padding-top: 17px;
+	padding-left: 20px;
+}
