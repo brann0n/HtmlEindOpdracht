@@ -1,16 +1,9 @@
 
-<<<<<<< HEAD
-=======
-
->>>>>>> adee1469138f3030c7f523c4288025bf50610063
 .phoneNicktext{
 	width: 400px;
 	padding: 5px;
 	float: left;
 }
-
-
-
 
 #Nicktext1{
 	
@@ -20,10 +13,6 @@
 	padding-left: 0px;
 	float: left;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> adee1469138f3030c7f523c4288025bf50610063
 
 .phoneImageNick{
 	float: right;
@@ -39,3 +28,8 @@
 	
 }
 
+.NickMainContent{
+	height: 300px;
+	width: 200px;
+	float: left;
+}
