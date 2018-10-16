@@ -22,10 +22,6 @@ body{
 	color: #fdfdfd;
 }
 
-#imageSimon {
-	padding-top: 10px;
-}
-
 .NavMenu{
 	list-style:none;
 	float:left;
@@ -105,7 +101,7 @@ body{
 
 .PhoneCard{
 	width: 190px;
-	height: 290px;
+	height: 300px;
 	padding: 10px;
 	margin: 5px;
 	border: solid 1px #fdfdfd;
@@ -115,7 +111,7 @@ body{
 
 .PhoneCard:hover{
 	width: 190px;
-	height: 290px;
+	height: 300px;
 	padding: 10px;
 	margin: 3px;
 	border: 3px solid #fdfdfd;
@@ -159,3 +155,18 @@ body{
 	margin-left: 260px;
 }
 
+.PhoneCard > p > img {
+	margin: 10px auto;
+	display: block;
+	
+}
+.downIcon{
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 14px;
+	font-size: inherit;
+	text-rendering: auto;
+}
+.downIcon:before{
+	content: "\2bc6";
+}

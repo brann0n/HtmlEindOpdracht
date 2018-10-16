@@ -21,7 +21,7 @@
 						<li class="dropDownButton">														
 							<ul class="menuDropDown">
 								<li id="greybutton">
-									<a href="">Onze telefoons</a>
+									<a href="">Onze telefoons<i class="downIcon"></i></a>
 								</li>
 								<li class="menuDropDownElement">
 									<a href="Robbert.html">Robbert Remie</a>
@@ -157,13 +157,28 @@
 					</table>
 				</div>
 				<div class="reviewSections">
-					<iframe id="video" width="495" height="290" src="https://www.youtube.com/embed/PdhEnZiNULg" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<iframe id="video" width="545" height="290" src="https://www.youtube.com/embed/PdhEnZiNULg" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 				<div class="reviewSections">
-					<div id="writeYourReview">
-					<p>
-					aids
-					</p>
+					<div id="writeYourReview">				
+					<form action="Brandon.html" method="GET">
+						<h3>Jouw review</h3>
+						<p>Heb jij deze telefoon? zou je dan misschien ook een review willen schrijven?</p>
+						<span class="inputLabels">Gebruikersnaam: </span> 
+						<input id="inputUsername" class="frmInputs" type="text" name="username" placeholder="Vul hier een uw naam in" /> 
+						<span class="inputLabels">Email adres: </span> 
+						<input id="inputEmail" class="frmInputs" type="text" name="email" placeholder="Vul hier uw emailadres in" />
+						<span class="inputLabels">Geslacht: </span> 
+						<div class="frmInputs">
+							Man <input class="radiobtn" type="radio" name="geslacht" value="Male"/>
+							Vrouw <input class="radiobtn" type="radio" name="geslacht" value="Female"/>
+							Anders <input class="radiobtn" type="radio" name="geslacht" value="Other" disabled/>
+						</div>
+						<span class="inputLabels">Jouw mening: </span> 
+						<textarea placeholder="Hier komt uw review" id="inputTextArea" class="frmInputs" name="opinion" rows="4"></textarea>
+						<input type="submit" name="submit" id="submitBtn" value="submit" />
+					
+					</form>
 					</div>
 				</div>	
 				<div style="clear: both;"></div>
