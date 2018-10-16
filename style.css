@@ -138,7 +138,7 @@ body{
 .C{
 	text-align:justify;
 	width: 500px;	
-	padding-top: `2px;
+	padding-top: 2px;
 	padding-bottom: 10px;
 }
 #C2{
@@ -157,24 +157,5 @@ body{
 	height: 60px;
 	float: left;
 	margin-left: 260px;
-}
-
-.arjanPhoneImage {
-	float:right; 
-	margin-top: 80px;
-	margin-left: 20px;
-	margin-right: 20px;
-	width: 350px;
-	height: 350px;
-	border: 3px solid black;
-	
-}
-
-.arjanText {
-	float: left;
-	width: 450px;
-	height: 500px;
-	margin: 5px;
-	background-color: dimgray;
 }
 
