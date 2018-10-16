@@ -1,27 +1,4 @@
-*{
-	margin:0;
-	padding:0;
-	font-family: "Calibri";
-}
 
-body{
-	background-image: url("images/simpletechnology.png");
-	background-position: cover;
-}
-
-
-.HeaderContent{
-	width: 100%;
-	height: 70px;
-	background-color: #545454;
-}
-
-.MainHeaderContent{
-	width: 900px;
-	margin: auto;
-	padding: 5px;
-	color: #fdfdfd;
-}
 
 .phoneNicktext{
 	width: 400px;
@@ -29,83 +6,8 @@ body{
 	float: left;
 }
 
-.NavMenu{
-	list-style:none;
-	float:left;
-	margin-left: 30px;
-	margin:20px;
-}
 
-.NavMenu > li{
-	float:left;
-	margin-right: 10px;
-}
 
-.NavMenu > li > a{
-	text-decoration:none;
-	color:inherit;
-}
-
-#greybutton{
-	background-color:#545454;
-	padding: 0 5px;
-	text-decoration: none;
-	color: inherit;
-}
-
-#greybutton > a{
-	text-decoration: none;
-	color: #fdfdfd;
-}
-
-.menuDropDown{
-	list-style: none;
-	background-color:#fdfdfd;
-	color: #545454;	
-	width: 170px;
-	position: absolute;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-}
-
-.menuDropDownElement{
-	display:none;	
-	height: 30px;
-	width: 150px;
-	margin: 10px;
-	text-decoration: none;	
-}
-
-.menuDropDownElement > a{
-	text-decoration: none;	
-	color: #545454;
-}
-
-.dropDownButton:hover .menuDropDownElement {
-	display:block;
-}
-
-.MainContent{
-	width: 900px;
-	margin: 20px auto 50px  auto;
-	background-color: #545454;
-	height: auto;
-	padding: 5px;
-	box-shadow: 0px 15px 5px 11px #6067f399;	
-	color: #fdfdfd;
-	border-radius: 5px;
-}
-
-.urlCorrector{
-	text-decoration:none;
-	color: inherit;
-}
-
-.Footer{
-	background-color:#fdfdfd;
-	position:fixed;
-	bottom:0;
-}
 
 #Nicktext1{
 	text-align:justify;
@@ -113,10 +15,6 @@ body{
 	padding: 10px;
 	padding-left: 0px;
 	float: left;
-}
-#hTitle{
-	float: left;
-	padding: 5px;
 }
 
 .phoneImageNick{
