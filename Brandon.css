@@ -2,12 +2,26 @@
 	text-align:justify;
 	float: left;
 	width: 500px;
+	padding: 5px;
 	padding-top: 5px;
 	padding-bottom: 10px;
+	
 }
 
 #NokiaImage{
 	float:right;
 	width: 300px;
 	padding: 5px;
+}
+
+#nTitle{
+	padding: 5px;
+}
+
+#specTable{
+	border: 1px solid black;
+}
+
+.th{
+	border: 1px solid black;
 }
