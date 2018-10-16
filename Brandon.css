@@ -13,15 +13,37 @@
 	width: 300px;
 	padding: 5px;
 }
-
+#video{
+	border: 3px solid #fdfdfd;
+	border-radius: 5px;
+}
 #nTitle{
 	padding: 5px;
 }
 
 #specTable{
-	border: 1px solid black;
+	margin-top: 20px;
+	border: 3px solid #fdfdfd;
+	padding: 5px;
+	border-radius: 5px;
 }
 
 .th{
-	border: 1px solid black;
+	padding: 3px;
+	font-weight: bold;	
+}
+.trNew{
+	margin-top:4px;
+}
+.subth{
+	padding: 3px;	
+}
+
+.td{
+	padding: 3px;
+	padding-left: 15px;
+}
+#writeYourReview{
+	width: 300px;
+	height: auto;
 }
