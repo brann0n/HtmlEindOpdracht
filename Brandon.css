@@ -1,11 +1,94 @@
 .reviewSections{
 	text-align:justify;
 	float: left;
-	width: 500px;
+	width: 550px;
+	padding: 5px;
+	padding-top: 5px;
+	padding-bottom: 10px;
 }
 
 #NokiaImage{
 	float:right;
 	width: 300px;
 	padding: 5px;
+}
+
+#video{
+	border: 3px solid #fdfdfd;
+	border-radius: 5px;
+}
+
+#nTitle{
+	padding: 5px;
+}
+
+#specTable{
+	margin-top: 20px;
+	border: 3px solid #fdfdfd;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.th{
+	padding: 3px;
+	font-weight: bold;	
+}
+.trNew{
+	margin-top:4px;
+}
+.subth{
+	padding: 3px;	
+}
+
+.td{
+	padding: 3px;
+	padding-left: 15px;
+}
+#writeYourReview{
+	width: 535px;
+	height: 445px;
+	padding: 5px;
+	text-align: left;
+	border: 3px solid #fdfdfd;
+	border-radius: 5px;
+}
+.inputLabels{
+	width: 100px;
+	display: block;
+}
+.frmInputs{
+	margin: 10px;
+	margin-left: 110px;
+	width: 400px;
+	padding: 5px;
+	border: 1px solid #fdfdfd;
+	border-radius: 5px;
+	transition: all 250ms ease-in-out;
+}
+
+#submitBtn{
+	margin: 10px;
+	margin-left: 110px;
+	width: 412px;
+	padding: 5px;
+	border: 1px solid #fdfdfd;
+	border-radius: 5px;
+	transition: all 250ms ease-in-out;
+}
+
+#submitBtn:hover{
+	padding: 5px;
+	border: 1px solid #fdfdfd;
+	border-radius: 6px;
+	box-shadow: 0px 0px 10px 2px #ff000999;
+}
+
+.radiobtn{
+	margin-right: 40px;
+}
+.frmInputs:focus{
+	padding: 5px;
+	border: 1px solid #fdfdfd;
+	border-radius: 6px;
+	box-shadow: 0px 0px 10px 2px #ff000999;
 }

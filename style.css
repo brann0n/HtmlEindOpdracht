@@ -22,10 +22,6 @@ body{
 	color: #fdfdfd;
 }
 
-#imageSimon {
-	padding-top: 10px;
-}
-
 .NavMenu{
 	list-style:none;
 	float:left;
@@ -105,7 +101,7 @@ body{
 
 .PhoneCard{
 	width: 190px;
-	height: 290px;
+	height: 300px;
 	padding: 10px;
 	margin: 5px;
 	border: solid 1px #fdfdfd;
@@ -115,7 +111,7 @@ body{
 
 .PhoneCard:hover{
 	width: 190px;
-	height: 290px;
+	height: 300px;
 	padding: 10px;
 	margin: 3px;
 	border: 3px solid #fdfdfd;
@@ -138,7 +134,7 @@ body{
 .C{
 	text-align:justify;
 	width: 500px;	
-	padding-top: `2px;
+	padding-top: 2px;
 	padding-bottom: 10px;
 }
 #C2{
@@ -149,6 +145,7 @@ body{
 #hTitle{
 	float: left;
 	padding: 5px;
+	font-size: 40px;
 }
 #LogoImage{
 	margin: 5px;
@@ -158,22 +155,18 @@ body{
 	margin-left: 260px;
 }
 
-.arjanPhoneImage {
-	float:right; 
-	margin-top: 80px;
-	margin-left: 20px;
-	margin-right: 20px;
-	width: 350px;
-	height: 350px;
-	border: 3px solid black;
+.PhoneCard > p > img {
+	margin: 10px auto;
+	display: block;
 	
 }
-
-.arjanText {
-	float: left;
-	width: 450px;
-	height: 500px;
-	margin: 5px;
-	background-color: dimgray;
+.downIcon{
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 14px;
+	font-size: inherit;
+	text-rendering: auto;
 }
-
+.downIcon:before{
+	content: "\2bc6";
+}
