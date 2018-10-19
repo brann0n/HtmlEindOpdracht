@@ -21,7 +21,7 @@
 .phoneImageNick{
 	float: right;
 	width: 220px;
-	height: 290px;
+	height: 295px;
 	padding: 10px;
 }
 .border
@@ -82,5 +82,9 @@ th, td
 table{
 	border: 5px solid lightgrey;
 	border-radius: 10px;
-	box-shadow: 5px 5px 2px 5px #373158;
+	box-shadow: 5px 5px 2px 5px #1d1d1e;
+}
+
+#specificaties{
+	
 }
