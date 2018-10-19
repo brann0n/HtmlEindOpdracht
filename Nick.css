@@ -1,7 +1,7 @@
 
 
 .phoneNicktext{
-	width: 400px;
+	width: 450px;
 	padding: 5px;
 	float: left;
 }
@@ -15,12 +15,13 @@
 	padding: 10px;
 	padding-left: 0px;
 	float: left;
+	
 }
 
 .phoneImageNick{
 	float: right;
 	width: 220px;
-	height: 250px;
+	height: 290px;
 	padding: 10px;
 }
 .border
@@ -35,4 +36,51 @@
 	height: 300px;
 	width: 200px;
 	float: left;
+}
+
+#tablevoordelenplusspecs{
+	text-align: justify;
+	font-family: calibri;
+	float: right;
+	height: 400px;
+	width: 390px;
+	border-radius: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	background-color: #373158;
+}
+	
+.Nicktext2{
+	text-align:justify;
+	font-family: calibri;
+	padding: 10px;
+	padding-left: 0px;
+	float: left;
+	 
+}
+
+th, td 
+{
+    border: 2px solid black;
+    color: black;
+	padding: 10px;
+}
+
+
+.backgroundh
+{
+	background-color: #373158;
+	color: white
+	
+}
+
+.backgroundt
+{
+	background-color: white;
+}
+
+table{
+	border: 5px solid lightgrey;
+	border-radius: 10px;
+	box-shadow: 5px 5px 2px 5px #373158;
 }
