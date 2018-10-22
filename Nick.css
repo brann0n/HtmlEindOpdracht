@@ -86,5 +86,7 @@ table{
 }
 
 #specificaties{
-	
+	width: 450px;
+	padding: 5px;
+	float: left;
 }
