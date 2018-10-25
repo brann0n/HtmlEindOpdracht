@@ -32,22 +32,16 @@
 	
 }
 
-.NickMainContent{
-	height: 300px;
-	width: 200px;
-	float: left;
-}
-
 #tablevoordelenplusspecs{
 	text-align: justify;
 	font-family: calibri;
 	float: right;
-	height: 400px;
+	height: 700px;
 	width: 390px;
 	border-radius: 10px;
 	padding-bottom: 10px;
 	padding-left: 30px;
-	background-color: #373158;
+	background-color: #996161;
 }
 	
 .Nicktext2{
@@ -59,11 +53,21 @@
 	 
 }
 
-th, td 
+.th 
 {
     border: 2px solid black;
     color: black;
 	padding: 10px;
+	background-color: #996161;
+	color: white
+}
+
+.td
+{
+	border: 2px solid black;
+    color: black;
+	padding: 10px;
+	background-color: white;
 }
 
 
@@ -79,14 +83,58 @@ th, td
 	background-color: white;
 }
 
-table{
+.table{
 	border: 5px solid lightgrey;
 	border-radius: 10px;
 	box-shadow: 5px 5px 2px 5px #1d1d1e;
+	float: left;
 }
 
 #specificaties{
-	width: 450px;
+	width: 890px;
 	padding: 5px;
 	float: left;
+	height: auto;
+	border-radius: 10px;
+	background-color: #996161;
+	margin: auto;
 }
+
+.tussenkop{
+	text-align: center;
+}
+
+.tablespecs{
+	text-align: justify;
+	color: black;
+	border: 5px solid lightgrey;
+	height: 180px;
+	width: 293px;
+	float: left;
+	margin: auto;
+	
+	
+}
+
+.thspecs{
+	background-color: white;
+	border: 2px solid lightgrey;
+	padding: 5px;
+	padding-bottom: 5px;
+}
+
+
+.tdspecs{
+	background-color: white;
+	border: 2px solid lightgrey;
+	padding: 5px;
+	padding-bottom: 5px;
+}
+
+.ptables{
+	width: 890px;
+	height: 10px;
+	padding: 10px;
+	padding-left: 0px;
+}
+
