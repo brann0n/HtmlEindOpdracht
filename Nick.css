@@ -12,7 +12,7 @@
 	
 	text-align:justify;
 	font-family: calibri;
-	padding: 10px;
+	padding: 5px;
 	padding-left: 0px;
 	float: left;
 	
@@ -21,7 +21,7 @@
 .phoneImageNick{
 	float: right;
 	width: 220px;
-	height: 295px;
+	height: 275px;
 	padding: 10px;
 }
 .border
@@ -36,10 +36,9 @@
 	text-align: justify;
 	font-family: calibri;
 	float: right;
-	height: 700px;
+	height: 690px;
 	width: 390px;
 	border-radius: 10px;
-	padding-bottom: 10px;
 	padding-left: 30px;
 	background-color: #996161;
 }
@@ -98,6 +97,7 @@
 	border-radius: 10px;
 	background-color: #996161;
 	margin: auto;
+	padding: 5px;
 }
 
 .tussenkop{
@@ -134,7 +134,27 @@
 .ptables{
 	width: 890px;
 	height: 10px;
-	padding: 10px;
-	padding-left: 0px;
+	padding: 5px;
+	
 }
 
+#slot{
+	height: 700px;
+	width: 890px;
+	
+}
+
+#Nicktextslot{
+	float: left;
+	width: 380px;
+	height: 200px;
+	padding: 5px;
+	
+	
+}
+
+.h2slot{
+	padding: 5px;
+	
+}
+	
