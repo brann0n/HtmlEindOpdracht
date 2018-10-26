@@ -84,6 +84,11 @@ textarea {
 	overflow: auto;
 }
 input[type=submit] {
-	margin-top: 10px;
-	margin-left: 40px;
+	width: 800px;
+	height: 100px;
+	margin-top: 5px;
+	margin-left: 43px;
+	resize: none;
+	color: black;
+	overflow: auto;
 }

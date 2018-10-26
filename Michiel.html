@@ -123,9 +123,19 @@
 				<div id="form">
 					<h2>Reacties</h2>
 					<form action="Michiel.html" method="POST">
-						Naam:<input type="text" name="naam">
+						Uw naam:<input type="text" name="naam">
 						<br>
-						<textarea placeholder="Uw reactie...">
+						<br>
+						<div id="pollBox">
+							<form>
+								Man:
+								<input type="radio" name="vote" value="0" onclick="getVote(this.value)">
+								Vrouw:
+								<input type="radio" name="vote" value="1" onclick="getVote(this.value)">
+							</form>
+						</div>
+						<br>
+						Uw mening: <textarea placeholder="Uw reactie...">
 						</textarea>
 						<br>
 						<input type="submit" name="verzend" value="verstuur">
