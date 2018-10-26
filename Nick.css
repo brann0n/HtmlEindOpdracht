@@ -6,8 +6,6 @@
 	float: left;
 }
 
-
-
 #Nicktext1{
 	
 	text-align:justify;
@@ -138,16 +136,17 @@
 	
 }
 
-#slot{
-	height: 700px;
+#phoneNicktextslot{
 	width: 890px;
-	
+	height: 700px;
+	padding: 5px;
+	float: left;
 }
 
 #Nicktextslot{
 	float: left;
 	width: 380px;
-	height: 200px;
+	height: 100px;
 	padding: 5px;
 	
 	
@@ -157,4 +156,15 @@
 	padding: 5px;
 	
 }
-	
+
+.phoneImageNicklink{
+	float: right;
+	padding: 5px;
+}
+
+#formNick{
+	float: left;
+	width: 400px;
+	height: 500px;
+}
+
