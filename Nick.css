@@ -67,7 +67,6 @@
 	background-color: white;
 }
 
-
 .backgroundh
 {
 	background-color: #373158;
@@ -148,22 +147,25 @@
 	width: 380px;
 	height: 100px;
 	padding: 5px;
+	padding-left: 0px;
 	
 	
 }
 
 .h2slot{
 	padding: 5px;
+	padding-left: 0px;
 	
 }
 
 .phoneImageNicklink{
 	float: right;
 	padding: 5px;
+	padding-left: 0px;
 }
 
 #formNick{
-	float: left;
+	
 	width: 400px;
 	height: 500px;
 }
