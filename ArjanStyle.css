@@ -2,7 +2,7 @@
     float: left;
 }
 .ArjanPhoneImage {
-    float:right; 
+    float:left; 
     margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
@@ -10,7 +10,8 @@
     width: 350px;
     height: 350px;
     border: 2px solid black;
-    box-shadow: 0px 3px 3px 5px darkgray;
+    border-radius: 3px;
+    box-shadow: 0px 0px 30px 5px darkgray;
 }
 .Text {
     float: left;
@@ -20,7 +21,7 @@
 }
 .rechts {
     float: right;
-    width: 340px;
+    width: 330px;
     height: 300px;
     margin-top: 50px;
     margin-left: 20px;
@@ -29,8 +30,9 @@
     padding: 10px;
     text-align: left;
     background-color: dimgrey;
-    border-radius: 5px;
-    box-shadow: 0px 3px 3px 5px darkgray;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 0px 8px 10px 5px darkgray;
 }
 .ulList {
     list-style: none;
@@ -38,11 +40,10 @@
 #form {
     float: left;
     background-color: dimgrey;
-    width: 870px;
-    margin: 10px;
+    width: 890px;  
     padding: 5px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px darkgray;
+   
 }
 #totSlot {
     float: left;

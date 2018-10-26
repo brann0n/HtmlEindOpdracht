@@ -1,44 +1,38 @@
-*	{
-	margin: 0;
-	padding: 0;
+*{
+	margin:0;
+	padding:0;
+	font-family: "Calibri";
 }
 
-body { 
+body{
 	background-image: url("images/simpletechnology.png");
+	background-position: cover;
 }
 
-.main {
-	margin: 0 auto;
+h1 {
+	color: white;
+	padding-left: 20px;
 }
 
-.header {
-	height: 65px;
-	padding-top: 20px;
+#rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
+
+.HeaderContent{
+	width: 100%;
+	height: 70px;
 	background-color: #545454;
-	color: white;
 }
 
-.link { 
-	color: white;
-	text-decoration: none;
-}
-
-#headertext1 {
-	float: left;
-	padding-left: 400px;
-}
-
-#headertext2 {
-	float: left;
-	padding-left: 75px;
-	padding-top: 10px;
-
-}
-
-#headertext3 {
-	float: left;
-	padding-left: 50px;
-	padding-top: 10px;
+.MainHeaderContent{
+	width: 900px;
+	margin: auto;
+	padding: 5px;
+	color: #fdfdfd;
 }
 
 .NavMenu{
@@ -76,7 +70,10 @@ body {
 	color: #545454;	
 	width: 170px;
 	position: absolute;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
+
 .menuDropDownElement{
 	display:none;	
 	height: 30px;
@@ -86,10 +83,105 @@ body {
 }
 
 .menuDropDownElement > a{
-	text-decoration: none;	
-	color: #545454;
+	text-decoration: none;
 }
 
 .dropDownButton:hover .menuDropDownElement {
 	display:block;
+}
+
+.PhoneCard{
+	width: 190px;
+	height: 300px;
+	padding: 10px;
+	margin: 5px;
+	border: solid 1px #fdfdfd;
+	border-radius: 5px;
+	float:left;
+}
+
+.Footer{
+	background-color:#fdfdfd;
+	position:fixed;
+	bottom:0;
+	color: #545454;
+}
+
+.C{
+	text-align:justify;
+	width: 500px;	
+	padding-top: 2px;
+	padding-bottom: 10px;
+}
+#C2{
+	text-align:justify;
+	width: 500px;	
+	padding-top: 10px;
+}
+#hTitle{
+	float: left;
+	padding: 5px;
+	font-size: 40px;
+}
+#LogoImage{
+	margin: 5px;
+	padding: 0;
+	height: 60px;
+	float: left;
+	margin-left: 260px;
+}
+
+.downIcon{
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 14px;
+	font-size: inherit;
+	text-rendering: auto;
+}
+.downIcon:before{
+	content: "\2bc6";
+}
+
+.MainContent {    
+	border-radius: 25px;
+	width: 1080px;
+	height: 1920px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background-color: #545454;
+}
+
+#MainHeader {
+	padding-left: 20px;
+	font-size: 50px;
+}
+
+#MainPhoto {
+	float: right;
+	padding-right: 20px;
+}
+
+table, th, td {
+	border: 1px solid black;
+    border-collapse: collapse;
+	padding: 15px;
+	background-color: lightgray;	
+}
+
+.MainTable {
+	color: #545454;
+	width: 700px;
+}
+
+.table {
+	padding: 20px;
+}
+
+#ReviewText {
+	color: white;
+	padding-left: 20px;
+	padding-right: 350px;
+	padding-top: 20px;
+	text-align: justify;
 }
