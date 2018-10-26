@@ -60,7 +60,7 @@
 }
 #form {
 	float: left;
-	background-color:#4f4354;
+	background-color:#grey;
 	width: 880px;
 	margin: 5px;
 	padding: 5px;
@@ -85,10 +85,13 @@ textarea {
 }
 input[type=submit] {
 	width: 800px;
-	height: 100px;
+	height: 30px;
 	margin-top: 5px;
 	margin-left: 43px;
 	resize: none;
 	color: black;
 	overflow: auto;
+}
+input[type=text]{
+	margin-left: 43px;
 }
