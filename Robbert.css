@@ -7,7 +7,7 @@
 
 body{
 	background-image: url("images/simpletechnology.png");
-	background-position: cover;
+	background-size: cover;
 }
 
 .HeaderContent{
@@ -82,7 +82,7 @@ body{
 	background-color: #545454;
 	height: auto;
 	padding: 5px;
-	box-shadow: 0px 15px 5px 11px #6067f399;	
+	box-shadow: 0px 15px 5px 11px #6067f39;	
 	color: #fdfdfd;
 	border-radius: 5px;
 }
