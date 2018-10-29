@@ -7,7 +7,7 @@ h1 {
 .MainContent {    
 	border-radius: 25px;
 	width: 1080px;
-	height: 925px;
+	height: 1400px;
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 50px;
@@ -54,6 +54,7 @@ table, th, td {
 .punten {
 	padding-top: 50px;
 	width: 600px;
+	height: 200px;
 }
 
 .hoofdpunten {
@@ -79,6 +80,32 @@ ul {
 .plusminpunten {
 	padding: 5px;
 	padding-left: 20px;
-}	
+}
 
+.invultext {
+	padding-top: 10px;
+	padding-left: 20px;
+}
 
+input[type=text], select, textarea {
+    width: 500px;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
+
+#reacties {
+	width: 500px;
+	height: 150px;
+	margin-right: 1080px;
+}
+
+#submit {
+	
+}
+
+.naam {
+	padding-right: 800px;
+	font-size: 20px;
+}
