@@ -23,7 +23,6 @@
 	
 }
 
-
 .border
 {
 	border: 5px solid black;
@@ -104,7 +103,7 @@
 	width: 293px;
 	float: left;
 	margin: auto;
-	padding: 0px;
+	
 }
 
 .thspecs{
@@ -158,5 +157,6 @@
 .pforminput{
 	padding: 0px;
 }
+
 
 
