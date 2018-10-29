@@ -192,8 +192,8 @@
 						</table>
 				</div>
 				<div id="phoneNicktextslot">
-					<h2>Overtuigd</h2>
 					<div class= "Nicktextslot">
+						<h2>Overtuigd</h2>
 						<p class="Nicktext">Bent u ervan overtuigd dat dit het juiste toestel is voor u?
 						Klik hiernaast dan op de iPhone om te bestellen:</p>
 					</div>
@@ -203,12 +203,13 @@
 					<div id="formNick">
 						<h2>Opmerkingen</h2>
 						<p class= "Nicktext">Heeft u vragen of opmerkingen? Vul dit formulier in:</p>
-						<form action="/Nick.html" method="get">
+						<form action="Nick.html" method="GET">
 						Geslacht:
 						<input type="radio" name="geslacht" value="Man">Man
-						<input type="radio" name="geslacht" value="Vrouw">Vrouw<br>
-						E-Mail:<input type="text" placeholder="Uw e-mail..." name="e-mail">
+						<input type="radio" name="geslacht" value="Vrouw">Vrouw
+						<p class="pforminput">E-Mail:<input type="text" placeholder="Uw e-mail..." name="e-mail"></p>
 						<p class="Nicktext"><textarea placeholder= "Uw opmerking..." rows="4" cols="50"></textarea></p>
+						<p class="pforminput"><input type="submit" name="verzend" value= "Verstuur"></p>
 						</form>
 					</div>
 				</div>

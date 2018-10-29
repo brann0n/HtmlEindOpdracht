@@ -10,6 +10,7 @@
 #phoneImageNick{
 	padding: 10px;
 	float: right;
+	height: 293px;
 }
 
 .Nicktext{
@@ -22,13 +23,7 @@
 	
 }
 
-.phoneImageNick{
-	float: right;
-	width: 220px;
-	height: 293px;
-	
-	
-}
+
 .border
 {
 	border: 5px solid black;
@@ -86,19 +81,19 @@
 }
 
 #specificaties{
-	width: 890px;
-	padding: 5px;
+	width: 880px;
 	float: left;
 	height: auto;
 	border-radius: 10px;
 	background-color: #996161;
 	margin: auto;
 	padding: 10px;
-	padding-left: 0px;
+	
 }
 
 .tussenkop{
 	text-align: center;
+	
 }
 
 .tablespecs{
@@ -109,8 +104,7 @@
 	width: 293px;
 	float: left;
 	margin: auto;
-	
-	
+	padding: 0px;
 }
 
 .thspecs{
@@ -119,7 +113,6 @@
 	padding: 5px;
 	padding-bottom: 5px;
 }
-
 
 .tdspecs{
 	background-color: white;
@@ -145,7 +138,7 @@
 .Nicktextslot{
 	float: left;
 	width: 380px;
-	height: 100px;
+	height: 180px;
 	padding: 10px;
 	padding-left: 0px;
 	
@@ -153,9 +146,8 @@
 
 .phoneImageNicklink{
 	float: right;
-	padding: 30px;
-
-	
+	padding: 50px;
+	padding-right: 20px;
 }
 
 #formNick{
@@ -163,5 +155,8 @@
 	height: 500px;
 }
 
+.pforminput{
+	padding: 0px;
+}
 
 
