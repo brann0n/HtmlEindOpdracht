@@ -107,22 +107,12 @@ h1 {
 	color: #545454;
 }
 
-.C{
-	text-align:justify;
-	width: 500px;	
-	padding-top: 2px;
-	padding-bottom: 10px;
-}
-#C2{
-	text-align:justify;
-	width: 500px;	
-	padding-top: 10px;
-}
 #hTitle{
 	float: left;
 	padding: 5px;
 	font-size: 40px;
 }
+
 #LogoImage{
 	margin: 5px;
 	padding: 0;
@@ -150,6 +140,7 @@ h1 {
 	margin-top: 20px;
 	margin-bottom: 50px;
 	background-color: #545454;
+	box-shadow: 0px 15px 5px 11px #6067f399;
 }
 
 #MainHeader {
@@ -184,4 +175,23 @@ table, th, td {
 	padding-right: 350px;
 	padding-top: 20px;
 	text-align: justify;
+}
+
+.punten {
+	padding-top: 50px;
+	width: 500px;
+}
+
+.hoofdpunten {
+	font-size: 20pt;
+}
+
+#pluspunten{
+	width: 200px;
+	float: left;
+}
+
+#minpunten{
+	width: 200px;
+	float: right;	
 }
