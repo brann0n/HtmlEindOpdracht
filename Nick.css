@@ -158,5 +158,15 @@
 	padding: 0px;
 }
 
+.textarea{
+	border-radius: 5px;
+}
 
+.email{
+	border-radius: 5px;
+}
+
+.submit{
+	border-radius: 2px;
+}
 
