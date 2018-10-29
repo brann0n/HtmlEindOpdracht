@@ -87,12 +87,11 @@ ul {
 	padding-left: 20px;
 }
 
-input[type=text], select, textarea {
+input[type=text],input [type=radio], select, textarea {
     width: 500px;
     padding: 12px;
     box-sizing: border-box;
     margin-top: 15px;
-    margin-bottom: 16px;
 }
 
 #reacties {
@@ -101,11 +100,8 @@ input[type=text], select, textarea {
 	margin-right: 1080px;
 }
 
-#submit {
-	
-}
-
 .naam {
+	padding-top: 10px;
 	padding-right: 800px;
 	font-size: 20px;
 }
