@@ -94,9 +94,13 @@ input[type=text],input [type=radio], select, textarea {
     margin-top: 15px;
 }
 
+input[type=submit] {
+	margin-top: 10px;
+}
+
 #reacties {
 	width: 500px;
-	height: 150px;
+	height: 100px;
 	margin-right: 700px;
 }
 
