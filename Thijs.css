@@ -5,7 +5,7 @@
 }
 
 #imageBox{
-	width: 35%;
+	width: 30%;
 	float: left;
 }
 
@@ -48,6 +48,13 @@ table, th, td{
 }
 
 #guessBox{
+	width: 65%;
+	float: left;
+	padding-top: 17px;
+	padding-left: 20px;
+}
+
+#complimentBox{
 	width: 65%;
 	float: left;
 	padding-top: 17px;
