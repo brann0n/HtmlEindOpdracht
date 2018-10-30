@@ -7,7 +7,6 @@ h1 {
 .MainContent {    
 	border-radius: 25px;
 	width: 1080px;
-	height: 1400px;
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 50px;
@@ -96,6 +95,7 @@ input[type=text],input [type=radio], select, textarea {
 
 input[type=submit] {
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #reacties {
